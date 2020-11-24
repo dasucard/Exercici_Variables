@@ -1,3 +1,4 @@
+package ExerciciM1_Final_Outocme;
 
 public class DadesPersonals {
 
@@ -20,18 +21,18 @@ public class DadesPersonals {
 		System.out.println("Vaig neixer el "+VaigNeixer);
 		
 
-		String Traspàs= "El mey any de naixement es de traspàs";
+		String Traspas= "El mey any de naixement es de traspàs";
 		
-		String NoTraspàs= "El meu any de naixement no es de traspàs";
+		String NoTraspas= "El meu any de naixement no es de traspàs";
 				
 		
 		if (any%4==0){
 			
 			//si es divisible por 4,es bisiesto con lo cual el residuo de la división ha de ser igual a 0//
 			
-			System.out.println(Traspàs);
+			System.out.println(Traspas);
 		} else {
-			System.out.println(NoTraspàs);
+			System.out.println(NoTraspas);
 		}	
 				
 
